@@ -1,3 +1,16 @@
-body {
-    background-color: green;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.languages {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.languages li {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
 }
